@@ -1,0 +1,58 @@
+2013-08-18 20:38:51,144 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@71ad88: startup date [Sun Aug 18 20:38:51 BRT 2013]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2013-08-18 20:40:26,279 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@146c21b: startup date [Sun Aug 18 20:40:26 BRT 2013]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2013-08-18 20:40:28,187 | INFO  | PListStore:[C:\Program Files\Zend\Apache2\htdocs\stomp\apache-activemq-5.8.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2013-08-18 20:40:28,254 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Program Files\Zend\Apache2\htdocs\stomp\apache-activemq-5.8.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2013-08-18 20:40:28,750 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:paulo-pc-1804-1376869228578-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2013-08-18 20:40:28,817 | INFO  | Listening for connections at: tcp://paulo-pc:61616?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2013-08-18 20:40:28,818 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2013-08-18 20:40:28,827 | INFO  | Listening for connections at: amqp://paulo-pc:5672?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2013-08-18 20:40:28,827 | INFO  | Connector amqp Started | org.apache.activemq.broker.TransportConnector | main
+2013-08-18 20:40:28,841 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:paulo-pc-1804-1376869228578-0:1) started | org.apache.activemq.broker.BrokerService | main
+2013-08-18 20:40:28,841 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2013-08-18 20:40:28,844 | WARN  | Store limit is 102400 mb, whilst the data directory: C:\Program Files\Zend\Apache2\htdocs\stomp\apache-activemq-5.8.0\bin\..\data\kahadb only has 12122 mb of usable space | org.apache.activemq.broker.BrokerService | main
+2013-08-18 20:40:28,846 | ERROR | Temporary Store limit is 51200 mb, whilst the temporary data directory: C:\Program Files\Zend\Apache2\htdocs\stomp\apache-activemq-5.8.0\bin\..\data\localhost\tmp_storage only has 12122 mb of usable space | org.apache.activemq.broker.BrokerService | main
+2013-08-18 20:40:29,896 | INFO  | Web console type: embedded | org.apache.activemq.web.WebConsoleStarter | main
+2013-08-18 20:40:30,142 | INFO  | ActiveMQ WebConsole initialized. | org.apache.activemq.web.WebConsoleStarter | main
+2013-08-18 20:40:30,302 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2013-08-18 20:40:31,025 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2013-08-18 20:49:00,657 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:paulo-pc-1804-1376869228578-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-16
+2013-08-18 20:49:01,022 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-16
+2013-08-18 20:49:01,030 | INFO  | Connector amqp Stopped | org.apache.activemq.broker.TransportConnector | Thread-16
+2013-08-18 20:49:01,038 | INFO  | PListStore:[C:\Program Files\Zend\Apache2\htdocs\stomp\apache-activemq-5.8.0\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-16
+2013-08-18 20:49:01,038 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2013-08-18 20:49:01,039 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2013-08-18 20:49:01,042 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2013-08-18 20:49:01,476 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:paulo-pc-1804-1376869228578-0:1) uptime 8 minutes | org.apache.activemq.broker.BrokerService | Thread-16
+2013-08-18 20:49:01,477 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:paulo-pc-1804-1376869228578-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-16
+2013-08-18 20:49:01,478 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@146c21b: startup date [Sun Aug 18 20:40:26 BRT 2013]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-16
+2013-08-18 20:49:01,504 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-16
+2013-08-18 20:52:31,114 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1227365: startup date [Sun Aug 18 20:52:31 BRT 2013]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2013-08-18 20:52:32,958 | INFO  | PListStore:[c:\Program Files\Zend\Apache2\htdocs\stomp\apache-activemq-5.8.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2013-08-18 20:52:33,014 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[c:\Program Files\Zend\Apache2\htdocs\stomp\apache-activemq-5.8.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2013-08-18 20:52:34,799 | INFO  | KahaDB is version 4 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2013-08-18 20:52:34,858 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2013-08-18 20:52:34,859 | INFO  | Recovery replayed 1 operations from the journal in 0.051 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2013-08-18 20:52:35,076 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:paulo-pc-2198-1376869954911-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2013-08-18 20:52:35,119 | INFO  | Listening for connections at: tcp://paulo-pc:61616?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2013-08-18 20:52:35,119 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2013-08-18 20:52:35,127 | INFO  | Listening for connections at: amqp://paulo-pc:5672?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2013-08-18 20:52:35,127 | INFO  | Connector amqp Started | org.apache.activemq.broker.TransportConnector | main
+2013-08-18 20:52:35,131 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:paulo-pc-2198-1376869954911-0:1) started | org.apache.activemq.broker.BrokerService | main
+2013-08-18 20:52:35,131 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2013-08-18 20:52:35,134 | WARN  | Store limit is 102400 mb, whilst the data directory: c:\Program Files\Zend\Apache2\htdocs\stomp\apache-activemq-5.8.0\bin\..\data\kahadb only has 12391 mb of usable space | org.apache.activemq.broker.BrokerService | main
+2013-08-18 20:52:35,137 | ERROR | Temporary Store limit is 51200 mb, whilst the temporary data directory: c:\Program Files\Zend\Apache2\htdocs\stomp\apache-activemq-5.8.0\bin\..\data\localhost\tmp_storage only has 12391 mb of usable space | org.apache.activemq.broker.BrokerService | main
+2013-08-18 20:52:36,205 | INFO  | Web console type: embedded | org.apache.activemq.web.WebConsoleStarter | main
+2013-08-18 20:52:36,477 | INFO  | ActiveMQ WebConsole initialized. | org.apache.activemq.web.WebConsoleStarter | main
+2013-08-18 20:52:36,633 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2013-08-18 20:52:37,301 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2013-08-18 22:35:00,835 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:paulo-pc-2198-1376869954911-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-16
+2013-08-18 22:35:01,554 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-16
+2013-08-18 22:35:01,569 | INFO  | Connector amqp Stopped | org.apache.activemq.broker.TransportConnector | Thread-16
+2013-08-18 22:35:01,569 | INFO  | PListStore:[c:\Program Files\Zend\Apache2\htdocs\stomp\apache-activemq-5.8.0\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-16
+2013-08-18 22:35:01,569 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2013-08-18 22:35:01,569 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2013-08-18 22:35:01,569 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2013-08-18 22:35:02,054 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:paulo-pc-2198-1376869954911-0:1) uptime 1 hour 42 minutes | org.apache.activemq.broker.BrokerService | Thread-16
+2013-08-18 22:35:02,054 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:paulo-pc-2198-1376869954911-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-16
+2013-08-18 22:35:02,054 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@1227365: startup date [Sun Aug 18 20:52:31 BRT 2013]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-16
+2013-08-18 22:35:02,069 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-16
