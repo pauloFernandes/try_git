@@ -1,2 +1,0 @@
-61616 -- porta do servico do activemq
-http://localhost:8161/admin/index.jsp -- url do servico de admin do activemq
